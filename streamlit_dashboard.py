@@ -10,7 +10,7 @@ import pandas as pd
 import plotly.express as px
 
 # Load the dataset
-file_path = r"C:\Users\mital\Documents\Project-4 (Analysis of Bonus Allocation)\PySpark\new_data.csv"  
+file_path = r"new_data.csv"  
 data = pd.read_csv(file_path)
 
 # Streamlit App Title
